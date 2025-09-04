@@ -8,9 +8,15 @@ Implements analytic dislocation solutions for plane-strain deformation.
 
 $$
 \begin{aligned}
-u_1(x_1,0) &= -\frac{s}{\pi} \left( \cos\delta \left[ \tan^{-1}(\zeta) - \tfrac{\pi}{2}\,\mathrm{sgn}(x_1) \right] + \frac{\sin\delta - \zeta\cos\delta}{1+\zeta^2} \right), \\[6pt]
-u_2(x_1,0) &= \;\;\frac{s}{\pi} \left( \sin\delta \left[ \tan^{-1}(\zeta) - \tfrac{\pi}{2}\,\mathrm{sgn}(x_1) \right] + \frac{\cos\delta + \zeta\sin\delta}{1+\zeta^2} \right).
+u_1(x_1,0) &= -\frac{s}{\pi}\Big( \cos\delta \,[ \arctan(\zeta) - \tfrac{\pi}{2}\operatorname{sgn}(x_1) ] + \frac{\sin\delta - \zeta\cos\delta}{1+\zeta^2} \Big),\\[6pt]
+u_2(x_1,0) &= \;\;\frac{s}{\pi}\Big( \sin\delta \,[ \arctan(\zeta) - \tfrac{\pi}{2}\operatorname{sgn}(x_1) ] + \frac{\cos\delta + \zeta\sin\delta}{1+\zeta^2} \Big).
 \end{aligned}
+$$
+
+where
+
+$$
+\zeta = \frac{x_1 - x_d}{d}.
 $$
 
 ## Model Description
