@@ -1,7 +1,6 @@
 # Segall-Thrust-2D
 
-A simple coseismic deformation model for a dipping thrust fault, based on Chapter 3 of *Earthquake and Volcano Deformation* by Paul Segall (2010).  
-Implements analytic dislocation solutions for plane-strain deformation.
+A simple coseismic deformation model for a dipping thrust fault, based on Chapter 3 of *Earthquake and Volcano Deformation* by Paul Segall (2010). Implements analytic dislocation solutions for plane-strain deformation.
 
 
 ## Equation (3.73): Surface displacements (finite-width fault)
