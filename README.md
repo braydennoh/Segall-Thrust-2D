@@ -7,8 +7,8 @@ A simple coseismic deformation model for a dipping thrust fault, based on Chapte
 
 $$
 \begin{aligned}
-u_1(x_1,0) &= -\frac{s}{\pi}\Big( \cos\delta \,[ \tan^{-1}(\zeta) - \tfrac{\pi}{2}\,\text{sgn}(x_1) ] + \frac{\sin\delta - \zeta\cos\delta}{1+\zeta^2} \Big), \\
-u_2(x_1,0) &= \frac{s}{\pi}\Big( \sin\delta \,[ \tan^{-1}(\zeta) - \tfrac{\pi}{2}\,\text{sgn}(x_1) ] + \frac{\cos\delta + \zeta\sin\delta}{1+\zeta^2} \Big).
+u_1(x_1,0)&= -\frac{s}{\pi}\Big( \cos\delta \,[ \tan^{-1}(\zeta) - \tfrac{\pi}{2}\,\text{sgn}(x_1) ] + \frac{\sin\delta - \zeta\cos\delta}{1+\zeta^2} \Big), \\
+u_2(x_1,0)&= \frac{s}{\pi}\Big( \sin\delta \,[ \tan^{-1}(\zeta) - \tfrac{\pi}{2}\,\text{sgn}(x_1) ] + \frac{\cos\delta + \zeta\sin\delta}{1+\zeta^2} \Big).
 \end{aligned}
 $$
 
