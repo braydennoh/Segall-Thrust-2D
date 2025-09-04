@@ -25,3 +25,5 @@ This implementation evaluates Eq. (3.73) at the ground surface to generate:
 - **Horizontal displacement** \(u_1\): motion toward/away from the fault.  
 - **Vertical displacement** \(u_2\): uplift or subsidence.  
 - **Horizontal strain** \(\varepsilon_{11}\): elastic rebound across the profile. 
+
+![Figure 3.10: Coseismic deformation for a 20° dipping thrust fault](https://github.com/braydennoh/Segall-Thrust-2D/blob/main/3.10.png)
