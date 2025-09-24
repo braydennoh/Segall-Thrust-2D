@@ -19,7 +19,7 @@ $$\zeta = \frac{x_1 - \xi_1}{d}.$$
 
 ## Equation (3.73): Surface displacements (finite-width, surface-breaking fault)
 
-[cite_start]This equation models a fault that ruptures from the surface down to a depth *d*. [cite: 1]
+This equation models a fault that ruptures from the surface down to a depth *d*. [cite: 1]
 
 $$
 \begin{aligned}
@@ -40,4 +40,4 @@ This implementation evaluates these equations at the ground surface to generate:
 - **Horizontal strain** ($\varepsilon_{11}$): elastic rebound across the profile.
 
 
-<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/3.10.png" alt="Figure 3.10: Coseismic deformation for a 20° dipping thrust fault" width="500"/>
+<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/segallmcmc.png" width="500"/>
