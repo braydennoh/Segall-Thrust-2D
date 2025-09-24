@@ -32,8 +32,6 @@ where
 
 $$\zeta = \frac{x_1 - x_d}{d}.$$
 
-## Model Description
-
 This implementation evaluates these equations at the ground surface to generate:
 - **Horizontal displacement** ($u_1$): motion toward/away from the fault. 
 - **Vertical displacement** ($u_2$): uplift or subsidence. 
