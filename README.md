@@ -40,4 +40,4 @@ This implementation evaluates these equations at the ground surface to generate:
 - **Horizontal strain** ($\varepsilon_{11}$): elastic rebound across the profile.
 
 
-<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/segallmcmc.png" width="500"/>
+<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/segallmcmc.png">
