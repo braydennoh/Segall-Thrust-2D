@@ -2,8 +2,24 @@
 
 A simple coseismic deformation model for a dipping thrust fault, based on Chapter 3 of *Earthquake and Volcano Deformation* by Paul Segall (2010). Implements analytic dislocation solutions for plane-strain deformation.
 
+## Equation (3.70): Surface displacements (buried semi-infinite fault)
 
-## Equation (3.73): Surface displacements (finite-width fault)
+This equation calculates the surface displacement from a single, buried edge dislocation whose top is at depth *d*. [cite_start]It serves as the building block for modeling finite faults through superposition. [cite: 1]
+
+$$
+\begin{aligned}
+u_1(x_1, x_2 = 0) &= \frac{s}{\pi}\Big[ \cos\delta \tan^{-1}(\zeta) + \frac{\sin\delta - \zeta\cos\delta}{1+\zeta^2} \Big], \\
+u_2(x_1, x_2 = 0) &= -\frac{s}{\pi}\Big[ \sin\delta \tan^{-1}(\zeta) + \frac{\cos\delta + \zeta\sin\delta}{1+\zeta^2} \Big],
+\end{aligned}
+$$
+
+where
+
+$$\zeta = \frac{x_1 - \xi_1}{d}.$$
+
+## Equation (3.73): Surface displacements (finite-width, surface-breaking fault)
+
+[cite_start]This equation models a fault that ruptures from the surface down to a depth *d*. [cite: 1]
 
 $$
 \begin{aligned}
@@ -14,15 +30,14 @@ $$
 
 where
 
-$$
-\zeta = \frac{x_1 - x_d}{d}.
-$$
+$$\zeta = \frac{x_1 - x_d}{d}.$$
 
 ## Model Description
 
-This implementation evaluates Eq. (3.73) at the ground surface to generate:
-- **Horizontal displacement** ($u_1$): motion toward/away from the fault.  
-- **Vertical displacement** ($u_2$): uplift or subsidence.  
+This implementation evaluates these equations at the ground surface to generate:
+- **Horizontal displacement** ($u_1$): motion toward/away from the fault. 
+- **Vertical displacement** ($u_2$): uplift or subsidence. 
 - **Horizontal strain** ($\varepsilon_{11}$): elastic rebound across the profile.
+
 
 <img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/3.10.png" alt="Figure 3.10: Coseismic deformation for a 20° dipping thrust fault" width="500"/>
