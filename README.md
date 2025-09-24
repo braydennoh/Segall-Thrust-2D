@@ -1,10 +1,10 @@
 # Segall-Thrust-2D
 
-A simple coseismic deformation model for a dipping thrust fault, based on Chapter 3 of *Earthquake and Volcano Deformation* by Paul Segall (2010). Implements analytic dislocation solutions for plane-strain deformation.
+An elastic dislocation model for a dipping thrust fault, based on Chapter 3 of *Earthquake and Volcano Deformation* by Paul Segall (2010). Implements analytic dislocation solutions for plane-strain deformation.
 
 ## Equation (3.70): Surface displacements (buried semi-infinite fault)
 
-This equation calculates the surface displacement from a single, buried edge dislocation whose top is at depth *d*. [cite_start]It serves as the building block for modeling finite faults through superposition. [cite: 1]
+This equation calculates the surface displacement from a single, buried edge dislocation whose top is at depth *d*.
 
 $$
 \begin{aligned}
@@ -19,7 +19,7 @@ $$\zeta = \frac{x_1 - \xi_1}{d}.$$
 
 ## Equation (3.73): Surface displacements (finite-width, surface-breaking fault)
 
-This equation models a fault that ruptures from the surface down to a depth *d*. [cite: 1]
+This equation models a fault that ruptures from the surface down to a depth *d*. 
 
 $$
 \begin{aligned}
