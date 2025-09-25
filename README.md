@@ -1,4 +1,4 @@
-# Segall-Thrust-2D
+# Thrust2D
 
 <img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/image2.png">
 
