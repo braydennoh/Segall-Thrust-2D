@@ -1,5 +1,7 @@
 # Segall-Thrust-2D
 
+<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/image2.png">
+
 An elastic dislocation model for a dipping thrust fault, based on Chapter 3 of *Earthquake and Volcano Deformation* by Paul Segall (2010). Implements analytic dislocation solutions for plane-strain deformation.
 
 ## Equation (3.70): Surface displacements (buried semi-infinite fault)
