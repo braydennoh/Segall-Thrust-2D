@@ -39,5 +39,9 @@ This implementation evaluates these equations at the ground surface to generate:
 - **Vertical displacement** ($u_2$): uplift or subsidence. 
 - **Horizontal strain** ($\varepsilon_{11}$): elastic rebound across the profile.
 
+## Inverse Modeling from Uplift
+
+One can infer the possible fault geometry based on the spatially varing uplift rate across the domain.
+
 
 <img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/image1.png">
