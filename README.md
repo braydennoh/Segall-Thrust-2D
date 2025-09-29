@@ -2,8 +2,6 @@
 
 An elastic dislocation model for a dipping thrust fault, based on Chapter 3 of *Earthquake and Volcano Deformation* by Paul Segall (2010). Implements analytic dislocation solutions for plane-strain deformation.
 
-<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/image2.png">
-
 ## Equation (3.70): Surface displacements (buried semi-infinite fault)
 
 This equation calculates the surface displacement from a single, buried edge dislocation whose top is at depth *d*.
@@ -39,9 +37,15 @@ This implementation evaluates these equations at the ground surface to generate:
 - **Vertical displacement** ($u_2$): uplift or subsidence. 
 - **Horizontal strain** ($\varepsilon_{11}$): elastic rebound across the profile.
 
-## Inverse Modeling from Uplift
-
-
-One can infer the possible fault geometry based on the spatially varing uplift rate across the domain. [View notebook in nbviewer](https://nbviewer.org/github/braydennoh/Thrust2D/blob/main/anynumber_thrust_mcmc.ipynb)
+## Inverse Modeling from Uplift  
+This inverse model explores the possible fault geometry inferred from the spatially varying uplift rate across the domain, using an MCMC approach. [View notebook in nbviewer](https://nbviewer.org/github/braydennoh/Thrust2D/blob/main/anynumber_thrust_mcmc.ipynb)
 
 <img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/image1.png">
+
+## Modeling the Gorkha (April 2015) Nepal Earthquake  
+
+This model simulates the coseismic vertical uplift associated with the 2015 Gorkha earthquake.  
+The fault geometry is based on the Main Himalayan Thrust (MHT), following parameters from [Elliott et al. (2016)](https://www.nature.com/articles/ngeo2623).  
+Slip is imposed as a Gaussian distribution along the length of the fault. [View notebook in nbviewer](https://nbviewer.org/github/braydennoh/Thrust2D/blob/main/gorkha_inverse.ipynb)
+
+<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/image3.png">
