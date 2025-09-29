@@ -45,7 +45,7 @@ This inverse model explores the possible fault geometry inferred from the spatia
 ## Modeling the Gorkha (April 2015) Nepal Earthquake  
 
 This model simulates the coseismic vertical uplift associated with the 2015 Gorkha earthquake.  
-The fault geometry is based on the Main Himalayan Thrust (MHT), following parameters from [Elliott et al. (2016)](https://www.nature.com/articles/ngeo2623).  
+The fault geometry is based on the Main Himalayan Thrust (MHT), following parameters from [Elliott et al. (2016)](https://www.nature.com/articles/ngeo2623). As shown in the animation, the uplift attributed to the mid-crustal ramp cannot be uniquely distinguished from models without a ramp.
 Slip is imposed as a Gaussian distribution along the length of the fault. [View notebook in nbviewer](https://nbviewer.org/github/braydennoh/Thrust2D/blob/main/gorkha_inverse.ipynb)
 
-<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/image3.png">
+<img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/gif1.gif">
