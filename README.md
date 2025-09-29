@@ -41,7 +41,7 @@ This implementation evaluates these equations at the ground surface to generate:
 
 ## Inverse Modeling from Uplift
 
-One can infer the possible fault geometry based on the spatially varing uplift rate across the domain.
 
+One can infer the possible fault geometry based on the spatially varing uplift rate across the domain. [View notebook in nbviewer](https://nbviewer.org/github/braydennoh/Thrust2D/blob/main/anynumber_thrust_mcmc.ipynb)
 
 <img src="https://github.com/braydennoh/Segall-Thrust-2D/blob/main/image/image1.png">
